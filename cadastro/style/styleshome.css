@@ -1,0 +1,99 @@
+body {
+    font-family: "Orbitron", sans-serif,arial;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+   
+    margin: auto;
+      
+
+    background-image: url(../img/backg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    overflow-x: hidden;
+}
+header {
+    background-color: #13131388;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    padding: 20px 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+#menusup {
+    list-style-type: none;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Centraliza o menu */
+}
+#itemmenu {
+    display: inline;
+    color: white;
+    margin-right: 20px;
+}
+
+#btmenu {
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-decoration: none;
+}
+#btmenu:hover {
+    color: #ffba6a;
+}
+
+.banner {
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+#btjogar{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+
+    background-color: rgb(255, 209, 150);
+    padding: 10px;
+    border-radius: 3px;
+    border: 0px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: 0.5s;
+}
+#btjogar:hover{
+    background-color:  rgb(255, 195, 106);
+}
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+footer {
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   
+}

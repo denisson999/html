@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+
+:root{
+    --cor1: #fff;
+    --cor2: #000000;
+    --cor3: #3c3c3c92;
+    --cor4: #508BFA;
+    --cor5: #5056FA;
+}
+*{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to left , rgba(255, 255, 86, 0.197),rgba(255, 255, 255, 0.203)), url(../img/backg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+header{
+    
+    background-color: #00000051;
+    text-align: center;
+    padding: 30px 30px 10px 30px ;   
+    box-shadow: 1px 1px 10px  #00000066;
+    
+}
+
+nav > a{
+    font-family: "Orbitron",Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+    padding: 1%;
+    transition: 0.5s;
+    text-shadow: 1px 1px 5px #00000085;
+}
+nav > a:hover{
+    color: #baa244;
+}
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+h2{
+    padding: 20px;
+}
+
+main{
+    
+    padding: 20px;
+    border-radius:  5px;
+    font-family: "Orbitron",Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #00000082;
+    max-width: 800px;
+    box-shadow: 1px 1px 10px  #0000007e;
+    margin: 100px auto;
+    color: #ffffd7;
+    font-weight: bold;
+    
+    
+    
+}
+main p{
+    line-height: 1.5em;
+}
+
+button{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 5%;
+    box-shadow: 4px 5px 15px #000000ab;
+    margin: 30px auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+    border-width: 0px;
+    border-radius: 4px;
+
+    background-color: rgb(255, 209, 150);
+    
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    transition: 0.2s;
+}
+button:hover{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(254, 184, 80); 
+}
+button:active{
+    background-color: #d2a800 ;
+}
+footer{
+    background-color: #000000ab;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+
